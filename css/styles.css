@@ -79,7 +79,7 @@ button,input,select,textarea{font:inherit; color:inherit}
   backdrop-filter:blur(10px); border-bottom:1px solid var(--line-soft);
   display:flex; align-items:center; gap:10px; padding:11px 20px;
 }
-.hamburger{display:grid}
+.hamburger{display:none}
 .searchbox{position:relative; flex:1; max-width:380px}
 .searchbox svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); color:var(--fg-3)}
 .searchbox input{
