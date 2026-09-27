@@ -54,7 +54,7 @@ button,input,select,textarea{font:inherit; color:inherit}
 .app{display:flex; min-height:100vh}
 .sidebar{
   width:252px; flex:0 0 252px; background:var(--panel); border-right:1px solid var(--line-soft);
-  display:flex; flex-direction:column; position:relative; top:0; height:100vh; z-index:60;
+  display:flex; flex-direction:column; position:sticky; top:0; height:100vh; z-index:60;
 }
 .brand{display:flex; gap:11px; align-items:center; padding:18px 18px 14px}
 .brand-mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(150deg,var(--accent),#1B6C86);display:grid;place-items:center;color:var(--accent-ink);flex:none}
