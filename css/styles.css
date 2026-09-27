@@ -306,4 +306,4 @@ tbody tr:hover{background:var(--panel-2)}
   h1{font-size:1.28rem}
 }
 .nav-scrim{position:fixed; inset:0; background:rgba(6,14,19,.5); z-index:55; animation:fade .15s}
-
+@media (min-width:none){.nav-scrim{display:none}}
